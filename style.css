@@ -1,34 +1,7 @@
-/* Custom styles for Trade Journal */
-
 body {
-  font-family: 'Inter', sans-serif;
+  background-color: #f7fafc;
 }
 
-h1, h2 {
-  font-family: 'Roboto', sans-serif;
-}
-
-#trade-list div {
-  transition: all 0.3s ease;
-}
-
-#trade-list div:hover {
-  background-color: #f1f5f9;
-  transform: scale(1.02);
-}
-
-button {
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #3b82f6;
-}
-
-#tradeForm select {
-  transition: background-color 0.3s ease;
-}
-
-#tradeForm select:hover {
-  background-color: #eff6ff;
+h1 {
+  color: #2d3748;
 }
