@@ -1,19 +1,34 @@
-/* Example of Custom Styles */
+/* Custom styles for Trade Journal */
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
-/* Override Tailwind's default font size */
-h1 {
-  font-size: 2.5rem;
-  color: #2c3e50;
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Style for trade item in the list */
 #trade-list div {
-  background-color: #f7fafc;
-  border: 1px solid #e2e8f0;
-  padding: 10px;
-  margin-bottom: 8px;
-  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#trade-list div:hover {
+  background-color: #f1f5f9;
+  transform: scale(1.02);
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
+
+#tradeForm select {
+  transition: background-color 0.3s ease;
+}
+
+#tradeForm select:hover {
+  background-color: #eff6ff;
 }
